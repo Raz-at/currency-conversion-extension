@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Currency Conversion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Convert currency</h1>
+<div>
+  <input type="text" id="amount" />
+    <select id="currency1">      
+      <option value="USD">USD</option>
+      <option value="NPR">NRP</option>
+      <option value="INR">INR</option>
+      <option value="EUR">EUR</option>
+      <option value="JPY">JPY</option>
+      <option value="AUD">AUD</option>
+      <option value="AED">AED</option>
+      <option value="BTC">BTC</option>
+      <option value="CAD">CAD</option>
+      <option value="KRW">KRW</option>
+      <option value="CHF">CHF</option>
+  </select>
+</div>
+<hr />
+  <select id="currency2">
+      <option value="NPR">NRP</option>
+      <option value="USD">USD</option>
+      <option value="INR">INR</option>
+      <option value="EUR">EUR</option>
+      <option value="JPY">JPY</option>
+      <option value="AUD">AUD</option>
+      <option value="AED">AED</option>
+      <option value="BTC">BTC</option>
+      <option value="CAD">CAD</option>
+      <option value="KRW">KRW</option>
+      <option value="CHF">CHF</option>
+  </select>
+<button id="convert">Convert</button>
+<div id="result"></div>
+
+<script src="exchange.js"></script>
+</body>
+</html>
